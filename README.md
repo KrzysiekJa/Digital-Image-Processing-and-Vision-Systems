@@ -1,12 +1,12 @@
 # Digital-Image-Processing-and-Vision-Systems
 MATLAB programs made during laboratory classes of mentioned above subject.
 
-##Technology:
+## Technology:
 ``
 m-scripts typical for MATLAB environment.
 ``
 
-##Legend:
+## Legend:
 ``
 0) Introduction to Digital Image Processing and Matlab software.
 1) Basic operations performed on digital images. Point based transformations.
