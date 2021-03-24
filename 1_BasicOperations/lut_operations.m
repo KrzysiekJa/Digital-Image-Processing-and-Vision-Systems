@@ -2,7 +2,7 @@
 clc; close all; clear;
 
 load('functionsLUT.mat');
-jet  = imread('jet.bmp');
+jet = imread('jet.bmp');
 
 figure(1), plot(square);
 
