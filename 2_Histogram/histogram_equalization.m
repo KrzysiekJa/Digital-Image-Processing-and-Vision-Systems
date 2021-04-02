@@ -57,7 +57,7 @@ lut = uint8( intlut(hist1, uint8(C2)) );
 
 subplot(1,2,1);
 hold on;
-plot(x, H), plot(x, C2), title('Histogram and cumulative h.'), xlim([0, 256]);
+imhist(lut), plot(x, C2), title('Histogram and cumulative h.'), xlim([0, 256]), ylim([0, 2500]);
 hold off;
 subplot(1,2,2), imshow(lut), title('Output image');
 
