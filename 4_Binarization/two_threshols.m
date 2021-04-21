@@ -14,7 +14,7 @@ clearvars; close all; clc;
 
 bart = imread('bart.bmp');
 
-imageBW = bart> 190 & bart < 210;
+imageBW = bart > 190 & bart < 210;
 
 
 figure(1)
