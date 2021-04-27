@@ -84,7 +84,7 @@ end
 
 
 figure(2)
-imshow(sauvolaBinarization(catalogue, 60)), title(['W2 = ', num2str(60)]);
+imshow(sauvolaBinarization(catalogue, 50));
 
 
 %% Sauvola method k = 0.3
